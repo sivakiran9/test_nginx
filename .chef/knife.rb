@@ -6,4 +6,5 @@ log_location             STDOUT
 node_name                "kiran787"
 client_key               "#{current_dir}/kiran787.pem"
 chef_server_url          "https://api.chef.io/organizations/test_nginx"
-cookbook_path            ["#{current_dir}/../cookbooks"]
+cookbook_path            ["/home/siva/Documents/chef/test_nginx"]
+#cookbook_path            ["#{current_dir}/../test_nginx"]
